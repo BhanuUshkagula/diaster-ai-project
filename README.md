@@ -30,11 +30,20 @@ An AI-based disaster management system that helps in predicting and analyzing di
 
 ## ▶️ How to Run
 
-1. Install dependencies: pip install -r requriments.txt
+1. Install dependencies:
+   pip install -r requriments.txt
 
-2. Run the application: python app.py
+2. Run the application:
+   streamlit run app.py
+3.Requirements:
+streamlit
+spacy
+openai
+pandas
 
-
+4.Example:
+Input:"There is heavy flood in my area"
+Output:Flood
 ---
 
 ## 📊 Datasets Used
